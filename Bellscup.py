@@ -10,7 +10,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
-token = "8570809216:AAFPBqxOEmjTXeHEkEpOGPC7DDvsXUT7GIg"
+token = ""
 
 session = AiohttpSession(proxy="http://201.51.20.178:3128")
 bot = Bot(token=token, session=session)
